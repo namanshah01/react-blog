@@ -7,6 +7,7 @@ Blog application made using React JS, using custom API as backend
 - Auth using JWT
 
 Also check out the [source code](https://github.com/namanshah01/django-blog-api/) and test [API](https://djangoblogapi.herokuapp.com/) of the Django backend
+<br>UI from net ninja's react blog
 
 
 ## Setup
