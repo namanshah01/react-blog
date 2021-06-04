@@ -1,12 +1,12 @@
 # React Blog
-Blog application made using React JS, using custom API as backend
+Blog application made using React JS, deployed through Netlify
 
 ### Features
 - CRUD blogs
 - Login / Logout
 - Auth using JWT
 
-Also check out the [source code](https://github.com/namanshah01/django-blog-api/) and test [API](https://djangoblogapi.herokuapp.com/) of the Django backend
+Also check out the [source code](https://github.com/namanshah01/django-blog-api/) and test [API](https://djangoblogapi.herokuapp.com/), of the custom django backend this app is built on
 <br>UI from net ninja's react blog
 
 
