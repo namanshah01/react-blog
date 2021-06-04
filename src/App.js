@@ -1,16 +1,15 @@
-import Navbar from './Navbar'
-import Home from './Home'
-import Create from './Create';
-import BlogDetails from './BlogDetails';
+import Navbar from './components/Navbar'
+import Home from './components/Home'
+import Create from './components/Create';
+import BlogDetails from './components/BlogDetails';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import NotFound from './NotFound';
-import Update from './Update';
-import Login from './Login';
-import Register from './Register';
+import NotFound from './components/NotFound';
+import Update from './components/Update';
+import Login from './components/Login';
+import Register from './components/Register';
 
 function App() {
 	return (
-		// <Home />
 		<Router>
 			<div className="App">
 				<Navbar />

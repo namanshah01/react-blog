@@ -5,7 +5,7 @@ const baseURL = 'https://djangoblogapi.herokuapp.com/api/';
 
 const axiosInstance = axios.create({
 	baseURL: baseURL,
-	timeout: 30000,
+	timeout: 300000,
 	headers: {
 		Authorization: localStorage.getItem('access_token')
 			? 'JWT ' + localStorage.getItem('access_token')

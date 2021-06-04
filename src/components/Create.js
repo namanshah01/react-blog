@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useHistory } from  'react-router-dom';
-import axiosInstance from "./AxiosSetUp";
+import axiosInstance from "../AxiosSetUp";
 
 const Create = () => {
 	const [title, setTitle] = useState('')
@@ -16,7 +16,6 @@ const Create = () => {
 			body: body,
 		})
 		.then(() => {
-			console.log('created');
 			setIsPending(false);
 			history.push('/');
 		});

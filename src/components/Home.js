@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import axiosInstance from './AxiosSetUp';
+import axiosInstance from '../AxiosSetUp';
 import BlogList from './BlogList';
 
 const Home = () => {

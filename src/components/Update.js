@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useHistory, useParams } from  'react-router-dom';
-import axiosInstance from "./AxiosSetUp";
+import axiosInstance from "../AxiosSetUp";
 
 const Update = () => {
 	const { slug } = useParams();
@@ -35,8 +35,6 @@ const Update = () => {
 			body: body,
 		})
 		.then((res) => {
-			res.data.detail ? console.log(res.data.detail) : console.log('no message')
-			console.log('updated');
 			setIsPending(false);
 			history.push('/');
 		});
